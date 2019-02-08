@@ -7,7 +7,7 @@
 
 ## Testing
 
-- Tests are required except for very small changes (typos, comment cleanup etc.)
+- Explain whether tests are necessary (most likely yes, except for very small changes e.g. fixing typos)
 - Explain how to run the tests
 - For libraries, always compulsory for new features
 - For large projects, up to discretion of project owner
