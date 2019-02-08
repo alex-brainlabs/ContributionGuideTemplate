@@ -1,23 +1,32 @@
-# Template
+# How to contribute
 
-For all:
-- Walkthrough of how to submit a contribution
-- Say whether tests are required (yes) and how to run current tests
-- If different process for small or obvious fixes (e.g. typos), explain
-- How to report a bug
-- How to suggest a feature
-- Code review process (who reviews, how it is accepted (CI?))
-- Github workflow (pull requests, branch names)
+## Github workflow
 
-For libraries:
-- Tests compulsory
+- Explain how to get a local copy of the project - most likely create your own fork of the repo to make changes
+- Git workflow - detail process for pull requests, branch names etc.
 
-For large projects:
-- May want to use a develop branch, with reviewed code pulled into this branch then regular (weekly?) releases into master
+## Testing
 
-For open-source:
-- Thanks for contributing
-- Ground rules (behaviour etc.)
-- Let people know where they can be most helpful
-- Legal stuff
-- Security
+- Tests are required except for very small changes (typos, comment cleanup etc.)
+- Explain how to run the tests
+- For libraries, always compulsory for new features
+- For large projects, up to discretion of project owner
+- Explain whether or not there are automated tests when pull requests are submitted
+
+## Code reviews
+
+- Explain review process including who reviews it and how the request gets accepted (passes automated tests and passes review by project owner)
+- If automated tests running (as above), mention that they need to pass
+
+## How to report a bug
+
+- For security issues, do not submit an issue - email instead (provide email address)
+- For other bugs, most likely submit an issue on repo
+- Explain any other bug reporting systems (filing bug reports etc.)
+
+## Conventions (optional)
+
+If you have specific conventions for the following, mention them here. Optional because these things are likely to be covered by project READMEs or style guides for specific languages.
+- Code style
+- Commit message conventions
+- Labelling conventions for issues
